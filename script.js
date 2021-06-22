@@ -1,3 +1,9 @@
-var a = "placa de captura";
+var a;
 
-console.log(a); 
+var b = "Hd"
+
+a = "Placa de Captura"
+
+b = a;
+
+console.log(b);
