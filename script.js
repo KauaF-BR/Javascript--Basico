@@ -1,9 +1,10 @@
-var a;
+// Boolean
+// Null
+// Undefined
+// Number
+// String
 
-var b = "Hd"
+var a = true ;
 
-a = "Placa de Captura"
+console.log(a);
 
-b = a;
-
-console.log(b);
