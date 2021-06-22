@@ -1,10 +1,14 @@
-// Boolean
-// Null
-// Undefined
-// Number
-// String
+// + Adição
+// - Subtração 
+// * Multiplicação 
+// / Divisão
+// ++ Incremento
+// -- Decremento
 
-var a = true ;
 
-console.log(a);
+var a = 10;
+var b = 15;
 
+var c = a + b;
+
+console.log(c)
