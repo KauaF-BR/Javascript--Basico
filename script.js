@@ -1,14 +1,6 @@
-// + Adição
-// - Subtração 
-// * Multiplicação 
-// / Divisão
-// ++ Incremento
-// -- Decremento
-
-
-var a = 10;
-var b = 15;
-
-var c = a + b;
-
-console.log(c)
+// =   x = y    x = y
+// +-  x += y   x = x + y
+// -=  x -= y   x = x - y
+// *=  x *= y   x = x * y
+// /=  x /= y   x = x / y
+//
