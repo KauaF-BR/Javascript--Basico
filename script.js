@@ -1,4 +1,7 @@
+var a = "3.5"
 
-var numero = 8
-var str ="Valor qualquer " + numero
-console.log(numero)
+var b = "5"
+
+var c = parseFloat(a * b) 
+
+console.log(c)
