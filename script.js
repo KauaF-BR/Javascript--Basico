@@ -1,7 +1,7 @@
-var a = "3.5"
 
-var b = "5"
 
-var c = parseFloat(a * b) 
+var numero = prompt("Digite um número")
 
-console.log(c)
+var dobro = numero * 2
+
+alert("O dobro do número que você digitou é " + dobro)
