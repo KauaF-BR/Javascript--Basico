@@ -1,7 +1,10 @@
+var idade = 18
 
-
-var numero = prompt("Digite um número")
-
-var dobro = numero * 2
-
-alert("O dobro do número que você digitou é " + dobro)
+if (idade >= 18){
+    console.log("pode")
+    console.log("Qual o seu pedido?")
+}
+else{
+    console.log("não pode")
+    console.log("Volte futuramente")
+}
