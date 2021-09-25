@@ -1,15 +1,38 @@
-var nota1 = 5.0
-var nota2 = 5.8
+var nota1 = 9.5
+var nota2 = 6.9
 
 
 var media = (nota1 + nota2) / 2
 
 
-if (media >= 7) {
+var conceito = ""
 
-    console.log("Você passou com média " + media)
+if(media >= 8){
+
+    var conceito = "Ótimo"
 }
 
-else{
-    console.log("Você reprovou com média " + media + ", não foi o suficiente para passar")
+else if( media >= 6.5){
+
+    
+    conceito = "Bom"
+}
+
+else {
+
+    conceito = "Regular"
+
+}   
+console.log(media)                                                                          
+console.log(conceito)       
+
+switch(conceito){
+
+    case "Ótimo":
+    
+    case "Bom":
+
+    default ""
+
+
 }
